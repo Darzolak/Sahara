@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<status-report>
+    <header>
+        <report-title>Untitled Workspace</report-title>
+        <report-creation-date>15/09/2015</report-creation-date>
+    </header>
+    <workspace>
+        <ID>0</ID>
+        <identifier>Untitled Workspace</identifier>
+        <long-name>Untitled Workspace</long-name>
+        <description>A blank workspace.</description>
+        <projects/>
+        <unassigned-teams/>
+        <unassigned-people/>
+        <unassigned-skills>
+            <skill>
+                <ID>1</ID>
+                <shortname>Product Owner</shortname>
+                <description>Knows how to work as a Teams Product Owner</description>
+                <tags/>
+            </skill>
+            <skill>
+                <ID>2</ID>
+                <shortname>Scrum Master</shortname>
+                <description>Can be Scrum Master for a Team</description>
+                <tags/>
+            </skill>
+        </unassigned-skills>
+        <roles>
+            <role>
+                <ID>3</ID>
+                <identifier>Scrum Master</identifier>
+                <description>The Scrum Master for a Team</description>
+                <required-skills>
+                    <skill>
+                        <ID>2</ID>
+                        <shortname>Scrum Master</shortname>
+                        <description>Can be Scrum Master for a Team</description>
+                        <tags/>
+                    </skill>
+                </required-skills>
+                <tags/>
+            </role>
+            <role>
+                <ID>4</ID>
+                <identifier>Product Owner</identifier>
+                <description>The Product Owner for a Team</description>
+                <required-skills>
+                    <skill>
+                        <ID>1</ID>
+                        <shortname>Product Owner</shortname>
+                        <description>Knows how to work as a Teams Product Owner</description>
+                        <tags/>
+                    </skill>
+                </required-skills>
+                <tags/>
+            </role>
+            <role>
+                <ID>5</ID>
+                <identifier>Developer</identifier>
+                <description>A member of the Dev Team</description>
+                <required-skills/>
+                <tags/>
+            </role>
+        </roles>
+        <tags/>
+    </workspace>
+</status-report>

@@ -1,0 +1,36 @@
+-------------------------
+SENG302: Group 2
+Shinobi Solutions: Sahara
+-------------------------
+
+Running Sahara
+--------------
+The project may be run in three ways:
+1) Opening the "program\project-2-1.0-SNAPSHOT-launcher.jar" - the build artifact, with Java Runtime 8 (u51 or above)
+	On linux, the .jar file may need to be marked as executable before running (chmod +X)
+2) Executing the OS script launchers found in "program\bin\" - built with Appsembler
+	.bat for Windows, and .sh for Linux
+	Again, on linux, the .sh file may need to be marked as executable before running (chmod +X)
+3) Executing an OS-specific binary for the project. These binaries can be distributed without the need of an existing JDK on the client machine.
+	To execute, double-click on the binary launcher. (Note that binaries must be built with JDK 8u51 or above. See Technical and Other Documentation section for more information.)
+
+Demo Workspace
+--------------
+Included is a demo workspace that has been saved as 'WWE.proj', which may be helpful for learning and understanding the concepts of Sahara, as well as testing.
+
+User Guide Documentation
+------------------------
+The user guide can be found at this link: https://docs.google.com/document/d/1Gvh4mk2yfHKMIPcY9Pbi6zXbqfUQ7aNOuFC8xzdiovE/edit?usp=sharing
+For convenience, the user guide has also been downloaded as a PDF and added to the /doc directory, though this may be outdated as changes are made on the live, online document.
+
+Technical and Other Documentation
+---------------------------------
+Binaries
+Project binaries may be built with the latest JDK (or one over u51). The binaries pack a portable copy of the JDK alongside the applications so that they may run independent of having a JRE installed on their machines, or one that�s up to date.
+The binaries can be built by running the 'create_launcher' scripts on either windows or linux (.bat, .sh, respectively).
+These scripts may need to be updated with the locations of javapackager, usually found in the JDK bin folder, if environment variables are not set. If the JDK environment variables are set, the program can just be renamed to 'javapackager' without including the directory.
+The Linux script, 'create_launcher.sh', may need to be marked as executable before running ('chmod +X ./create_launcher'). The first line of the file should also be pointed to the location of a JDK (8u51, or above), if JAVA_HOME is not already set on the host machine.
+
+Acceptance and Manual Testing
+The new Klaros test management system allows us to create and run acceptance tests online. The Klaros instance can be found at: http://noodlechump.ddns.net/klaros-web
+The user acceptance/manual testing documents can also be found in the /doc directory as .xlsx Excel files, and as PDFs.

@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.8.0_45\bin\javapackager" -deploy -native exe -outdir packages -outfile Sahara -srcdir target -srcfiles project-2-1.0-SNAPSHOT-launcher.jar -appclass seng302.group2.App -name "Sahara" -title "Sahara"
